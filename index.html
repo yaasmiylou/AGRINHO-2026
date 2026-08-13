@@ -1,73 +1,312 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agrinho 2026</title>
-    <!-- Link para o CSS externo -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Projeto Agrinho 2026</h1>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#objetivos">Objetivos</a></li>
-                <li><a href="#atividades">Atividades</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section id="sobre">
-            <h2>Sobre o Projeto</h2>
-            <p>O Agrinho 2026 é uma iniciativa voltada para educação, cidadania e sustentabilidade, promovendo o aprendizado e a conscientização de crianças e jovens.</p>
-        </section>
+    <title>Agrinho 2026 | Tecnologia e Sustentabilidade</title>
 
-        <section id="objetivos">
-            <h2>Objetivos</h2>
-            <ul>
-                <li>Promover a educação ambiental</li>
-                <li>Estimular a cidadania e responsabilidade social</li>
-                <li>Valorizar a agricultura e o meio rural</li>
-            </ul>
-        </section>
-
-        <section id="atividades">
-            <h2>Atividades</h2>
-            <p>Durante o projeto, serão realizadas palestras, oficinas e concursos educativos, envolvendo escolas e comunidades locais.</p>
-        </section>
-
-        <section id="contato">
-            <h2>Contato</h2>
-            <p>Entre em contato para saber mais sobre o Agrinho 2026:</p>
-            <address>
-                Email: <a href="mailto:contato@agrinho2026.com">contato@agrinho2026.com</a><br>
-                Telefone: (42) 0000-0000
-            </address>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2026 Projeto Agrinho. Todos os direitos reservados.</p>
-    </footer>
-<section>
-    <h2>🌱 Tecnologia no Campo</h2>
-
-    <img 
-        src="imagens/tecnologia.jpg" 
-        alt="Tecnologia sendo utilizada no campo"
-        class="imagem-destaque"
+    <!-- Fonte Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
     >
 
-    <p>
-        A tecnologia ajuda os agricultores a aumentar a produtividade
-        e utilizar os recursos naturais de maneira mais sustentável.
-    </p>
-</section>
-    <!-- Link para o JavaScript externo -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ==============================
+         TOPO DO SITE
+    =============================== -->
+
+    <header class="topo">
+
+        <div class="topo-conteudo">
+
+            <div class="logo">
+                🌱
+            </div>
+
+            <div class="titulo">
+                <h1>Projeto Agrinho 2026</h1>
+
+                <p>
+                    Tecnologia, sustentabilidade e inovação no campo
+                </p>
+            </div>
+
+        </div>
+
+        <!-- MENU -->
+
+        <nav class="menu">
+
+            <ul>
+                <li>
+                    <a href="#sobre">🏡 Sobre</a>
+                </li>
+
+                <li>
+                    <a href="#objetivos">🎯 Objetivos</a>
+                </li>
+
+                <li>
+                    <a href="#tecnologia">💻 Tecnologia</a>
+                </li>
+
+                <li>
+                    <a href="#atividades">🌾 Atividades</a>
+                </li>
+
+                <li>
+                    <a href="#contato">📩 Contato</a>
+                </li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ==============================
+         BANNER PRINCIPAL
+    =============================== -->
+
+    <section class="banner" id="inicio">
+
+        <div class="banner-conteudo">
+
+            <span class="banner-tag">
+                🌎 Educação para um futuro sustentável
+            </span>
+
+            <h2>
+                Tecnologia que transforma<br>
+                o campo e o futuro
+            </h2>
+
+            <p>
+                Conheça como a tecnologia, a inovação e a sustentabilidade
+                podem ajudar a construir um futuro melhor.
+            </p>
+
+            <a href="#sobre" class="botao">
+                Conheça o projeto →
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==============================
+         CONTEÚDO PRINCIPAL
+    =============================== -->
+
+    <main>
+
+        <!-- SOBRE -->
+
+        <section id="sobre" class="card">
+
+            <span class="icone">🌱</span>
+
+            <h2>Sobre o Projeto</h2>
+
+            <p>
+                O Agrinho 2026 é uma iniciativa voltada para educação,
+                cidadania e sustentabilidade, promovendo o aprendizado
+                e a conscientização de crianças e jovens.
+            </p>
+
+        </section>
+
+
+        <!-- OBJETIVOS -->
+
+        <section id="objetivos" class="card">
+
+            <span class="icone">🎯</span>
+
+            <h2>Objetivos</h2>
+
+            <ul class="lista">
+
+                <li>
+                    🌳 Promover a educação ambiental
+                </li>
+
+                <li>
+                    🤝 Estimular a cidadania e responsabilidade social
+                </li>
+
+                <li>
+                    🚜 Valorizar a agricultura e o meio rural
+                </li>
+
+                <li>
+                    💡 Incentivar o uso consciente da tecnologia
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <!-- TECNOLOGIA -->
+
+        <section id="tecnologia" class="card tecnologia">
+
+            <div class="texto-tecnologia">
+
+                <span class="icone">💻</span>
+
+                <h2>Tecnologia no Campo</h2>
+
+                <p>
+                    A tecnologia ajuda os agricultores a aumentar a
+                    produtividade e utilizar os recursos naturais
+                    de maneira mais sustentável.
+                </p>
+
+                <p>
+                    Sensores, drones, GPS, inteligência artificial e
+                    sistemas de irrigação inteligente são exemplos
+                    de tecnologias que podem transformar a agricultura.
+                </p>
+
+            </div>
+
+            <div class="imagem-container">
+
+                <img
+                    src="imagens/tecnologia.jpg"
+                    alt="Tecnologia sendo utilizada no campo"
+                    class="imagem-destaque"
+                >
+
+            </div>
+
+        </section>
+
+
+        <!-- DICA INTERATIVA -->
+
+        <section class="card dica">
+
+            <span class="icone">💡</span>
+
+            <h2>Dica Sustentável</h2>
+
+            <p id="texto-dica">
+                Clique no botão para receber uma dica sobre
+                sustentabilidade e tecnologia no campo.
+            </p>
+
+            <button id="botao-dica" class="botao">
+                🌱 Mostrar uma dica
+            </button>
+
+        </section>
+
+
+        <!-- ATIVIDADES -->
+
+        <section id="atividades" class="card">
+
+            <span class="icone">🌾</span>
+
+            <h2>Atividades</h2>
+
+            <p>
+                Durante o projeto, serão realizadas palestras,
+                oficinas e concursos educativos, envolvendo escolas
+                e comunidades locais.
+            </p>
+
+            <div class="atividades-grid">
+
+                <div class="atividade">
+                    <span>📚</span>
+                    <h3>Palestras</h3>
+                    <p>Aprendizado sobre sustentabilidade e cidadania.</p>
+                </div>
+
+                <div class="atividade">
+                    <span>🔬</span>
+                    <h3>Oficinas</h3>
+                    <p>Experiências práticas com tecnologia e inovação.</p>
+                </div>
+
+                <div class="atividade">
+                    <span>🏆</span>
+                    <h3>Concursos</h3>
+                    <p>Atividades para estimular criatividade e conhecimento.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTATO -->
+
+        <section id="contato" class="card contato">
+
+            <span class="icone">📩</span>
+
+            <h2>Contato</h2>
+
+            <p>
+                Entre em contato para saber mais sobre o Agrinho 2026:
+            </p>
+
+            <address>
+
+                📧
+                <a href="mailto:contato@agrinho2026.com">
+                    contato@agrinho2026.com
+                </a>
+
+                <br>
+
+                📞 (42) 0000-0000
+
+            </address>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==============================
+         RODAPÉ
+    =============================== -->
+
+    <footer>
+
+        <p>
+            🌱 &copy; 2026 Projeto Agrinho
+        </p>
+
+        <p>
+            Tecnologia • Sustentabilidade • Inovação
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+
     <script src="script.js"></script>
+
 </body>
+
 </html>
+  
