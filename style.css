@@ -122,6 +122,17 @@ footer p {
     main {
         padding: 1.5rem 1rem;
     }
+    header {
+    background-image:
+        linear-gradient(rgba(52, 152, 219, 0.7), rgba(52, 152, 219, 0.7)),
+        url("imagens/campo.jpg");
+
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
 
     section {
         padding: 1.5rem;
