@@ -1,47 +1,129 @@
-/* Estilos básicos para o projeto Agrinho 2026 */
+/* Estilos do projeto Agrinho 2026 */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #eaf7ff;
+    color: #234052;
 }
 
+/* Cabeçalho */
 header {
-    background: #4CAF50;
+    background: linear-gradient(135deg, #5dade2, #3498db);
     color: white;
-    padding: 1rem;
+    padding: 1.5rem;
     text-align: center;
+    box-shadow: 0 3px 10px rgba(52, 152, 219, 0.25);
 }
 
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* Menu */
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 1rem 0 0;
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 1.5rem;
+    flex-wrap: wrap;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    transition: 0.3s;
 }
 
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    transform: translateY(-2px);
+}
+
+/* Conteúdo principal */
 main {
-    padding: 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem;
 }
 
+/* Seções */
 section {
+    background-color: #ffffff;
     margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(52, 152, 219, 0.12);
+    border-left: 5px solid #5dade2;
 }
 
+section h2 {
+    color: #2980b9;
+    margin-top: 0;
+    font-weight: 700;
+}
+
+/* Botões, caso existam */
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #217dbb;
+    transform: translateY(-2px);
+}
+
+/* Rodapé */
 footer {
-    background: #333;
+    background-color: #2471a3;
     color: white;
     text-align: center;
-    padding: 1rem;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Ajuste para celulares */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav ul {
+        gap: 0.5rem;
+    }
+
+    main {
+        padding: 1.5rem 1rem;
+    }
+
+    section {
+        padding: 1.5rem;
+    }
 }
